@@ -1,0 +1,48 @@
+template:
+  directory: node_modules/now-ui-kit-couscous/template
+  index: README.md
+
+assetVersion: 201728001
+    
+baseUrl: /
+
+include:
+  - doc
+    
+exclude:
+  - vendor
+  - "%gitignore%"
+    
+# Used to link to the GitHub project
+# github:
+#    user: indinuity
+#    repo: now-ui-kit-couscous
+
+title: Example Documentation
+subTitle: A great theme for a great documentation generator
+
+# The left menu bar
+menu:
+  sections:
+    main:
+      name: Main
+      items:
+        home:
+          text: Home
+          relativeUrl: index.html
+        
+        cheatsheet:
+          text: Markdown Cheetsheet
+          relativeUrl: cheatsheet.html
+          
+        google:
+          text: Google
+          absoluteUrl: https://www.google.com
+
+    features:
+      name: Features
+      items:
+        example:
+          text: Another link
+          absoluteUrl: https://www.google.com
+

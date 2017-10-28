@@ -1,0 +1,22 @@
+{
+  "name": "now-ui-kit-couscous-example",
+  "version": "1.0.0",
+  "description": "Example of Now UI Kit for Couscous",
+  "scripts": {
+    "generate": "./vendor/bin/couscous generate",
+    "preview": "./vendor/bin/couscous preview 0.0.0.0:8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Indinuity/now-ui-kit-couscous.git"
+  },
+  "author": "Indinuity <github@indinuity.com> (https://www.indinuity.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Indinuity/now-ui-kit-couscous/issues"
+  },
+  "homepage": "https://github.com/Indinuity/now-ui-kit-couscous#readme",
+  "devDependencies": {
+    "now-ui-kit-couscous": "git+https://github.com/Indinuity/now-ui-kit-couscous.git"
+  }
+}

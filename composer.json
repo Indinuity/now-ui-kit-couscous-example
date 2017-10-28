@@ -1,0 +1,15 @@
+{
+    "name": "indinuity/now-ui-kit-couscous-example",
+    "description": "An example implementation of the Now-UI-Kit theme for Couscous.io",
+    "type": "project",
+    "require-dev" : {
+        "couscous/couscous": "^1.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jesse Badwal",
+            "email": "jbadwal@indinuity.com"
+        }
+    ]
+}
